@@ -1,0 +1,79 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.fz-title-l {
+  font-size: 80px;
+  line-height: 106px;
+}
+.fz-title-m {
+  font-size: 64px;
+  line-height: 84px;
+}
+.fz-s {
+  font-size: 20px;
+}
+.fz-lh-42px {
+  line-height: 42px;
+}
+.mb-s {
+  margin-bottom: 4px;
+}
+.mb-1s {
+  margin-bottom: 12px;
+}
+.mb-2s {
+  margin-bottom: 20px;
+}
+.mb-8s {
+  margin-bottom: 68px;
+}
+.pt-3s {
+  padding-top: 28px;
+}
+
+.borderT-b {
+  border-top: 1px solid black;
+}
+
+header {
+  background: url(../images/banner.png) center center no-repeat;
+  // width: 100%;
+  height: 958px;
+  background-size: cover;
+  .headerContent {
+    width: 304px;
+  }
+  a:hover {
+    img {
+      width: 70px;
+    }
+  }
+}
+.aboutContent {
+  width: 384px;
+  i {
+    margin-right: 16px;
+    color: #891818;
+    font-size: 22px;
+  }
+}
+.brand {
+  border: 1px solid #707070;
+  background: #000;
+  margin: 0 auto;
+}
+.otherWorks {
+  margin: 56px auto 144px auto;
+  width: 1200px;
+}
+.contact {
+  background: #000;
+  margin: 0 auto;
+  a:hover {
+    font-weight: 700;
+  }
+}
