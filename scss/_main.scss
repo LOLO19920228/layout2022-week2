@@ -47,10 +47,12 @@ header {
   .headerContent {
     width: 304px;
   }
-  a:hover {
-    img {
-      width: 70px;
-    }
+  li{
+    border: 1px solid transparent;
+  }
+  li:hover {
+    border: 1px solid white;
+    border-radius: 12px;
   }
 }
 .aboutContent {

@@ -404,8 +404,12 @@ header {
 header .headerContent {
   width: 304px;
 }
-header a:hover img {
-  width: 70px;
+header li {
+  border: 1px solid transparent;
+}
+header li:hover {
+  border: 1px solid white;
+  border-radius: 12px;
 }
 
 .aboutContent {
